@@ -4,3 +4,8 @@ TeamOneScore = 0
 TeamTwoScore = 0
 print("the game has now begun")
 print("the score is" ,TeamOneScore, TeamTwoScore)
+
+item = input("enter name of item")
+price = float(input("enter price of item"))
+discounted_price = price * 0.9 
+print ("the new price for",item,"is",discounted_price)
